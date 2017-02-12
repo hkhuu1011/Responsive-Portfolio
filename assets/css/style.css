@@ -1,0 +1,790 @@
+/*  Links */
+a {
+	transition: background-color 1s ease; }
+a:link { 
+	color: #666666; }
+a:visited {
+	color: #4A0000; }
+a.navlinks:hover { 
+	color: #ffffff;
+	background-color: #4A0000; }
+a:active { 
+	color: #666666; }
+a:link {
+    text-decoration: none; }
+a:visited {
+    text-decoration: none; }
+a:hover {
+    text-decoration: none; }
+a:active {
+    text-decoration: none; }
+
+* {
+	box-sizing: border-box;
+}
+
+/* Header & Navigaton */
+.header-cont {
+	width: 100%; 
+	z-index: 3;
+	position: static;
+}
+
+header {
+	background-color: #ffffff;
+	height: 100px;
+	border-bottom: 2px solid #666666;
+}
+
+h1 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 40px; 
+	color: #ffffff;
+	background-color: #4A0000;
+	padding: 30px;
+	float: left;
+	height: 100%;
+	/*width: 250px;*/
+	text-align: center;
+	position: relative;
+	left: 16%;
+	margin: 0;
+}
+
+.Nav {
+	font-family: "Arial", "Helvetica Neue", Nelvetica, sans-serif;
+	font-size: 16px; 
+	float: right;
+	margin: 3% 17% 3% 17%;
+	position: relative;
+}
+
+body {
+	margin: 0;
+	background-image:url(https://raw.githubusercontent.com/hkhuu1011/Basic--Portfolio/master/assets/images/green_gobbler.png);
+}
+
+/* Center Content */
+.wrapper {
+	display: table;
+	clear: both;
+	margin: auto;
+	margin-top: 90px;
+	margin-bottom: 80px;
+	width: 960px;
+	position: relative;
+	top: -10px;
+}
+
+.sidebar {
+	background-color: #ffffff;
+	width: 270px;
+	height: 180px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	float: right;
+	position: relative;
+	align-content: center;
+}
+
+.Icons {
+	position: relative;
+	padding: 20px;
+}
+
+h3 {
+	margin: 0px 35px 0px 35px; 
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 22px;
+	color: #4A0000;
+	padding: 25px 10px 25px 10px;
+	border-bottom: 2px solid #dddddd;
+}
+
+/* About Me */
+.About {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	width: 650px;
+	float: left;
+	position: relative;
+}
+
+h2 {
+	margin: 0px 35px 0 35px;
+	line-height: 3em;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 30px;
+	color: #4A0000;
+	border-bottom: 3px solid #dddddd;
+}
+
+.Profileimg {
+	float: left;
+	margin: 35px 35px 15px 35px;
+	width: 30%;
+	height: auto;		
+}
+
+.info {
+	margin: 26px 35px 35px 35px;
+	font-family: "Arial", "Helvetica Neue", Nelvetica, sans-serif;
+	font-size: 16px;
+	color: #777777;
+	line-height: 2em;
+}
+
+/* Portfolio */
+.box1 {
+	position: relative;
+	float: left;
+	margin: 35px 10px 10px 35px;
+}
+
+.multicolor {
+	width: 275px;
+	height:205px;
+}
+
+.Hangman {
+	margin: 0px 0px 0px 35px;
+	z-index: 2;
+	position: absolute;
+	bottom: 15px;
+	left: -35px;
+	float: left;
+	width: 275px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #4A0000;
+	font-size: 30px;
+	line-height: 2em;
+	text-align: center;
+}
+
+.box2 {
+	float: left;
+	margin: 35px 35px 10px 10px;
+	position: relative;
+}
+
+.cliff {
+	width: 275px;
+	height: 205px;
+}
+
+.RPGGame {
+	margin: 0px 35px 0px 0px;
+	z-index: 2;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	float: left;
+	width: 275px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #4A0000;
+	font-size: 30px;
+	line-height: 2em;
+	text-align: center;
+}
+
+.box3 {
+	float: left;
+	margin: 10px 10px 10px 35px;
+}
+
+.headphones {
+	width: 275px;
+	height: 205px;
+}
+
+.Trivia {
+	margin: 0px 0px 0px 35px;
+	z-index: 2;
+	position: absolute;
+	bottom: 278px;
+	left: 0;
+	float: left;
+	width: 275px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #4A0000;
+	font-size: 30px;
+	line-height: 2em;
+	text-align: center;
+}
+
+.box4 {
+	float: left;
+	margin: 10px 35px 10px 10px;	
+}
+
+.girl {
+	width: 275px;
+	height: 205px;
+}
+
+.Rutgers {
+	margin: 0px 35px 0px 0px;
+	z-index: 2;
+	position: absolute;
+	bottom: 278px;
+	float: left;
+	width: 275px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #4A0000;
+	font-size: 30px;
+	line-height: 2em;
+	text-align: center;
+}
+
+.box5 {
+	float: left;
+	margin: 10px 10px 35px 35px;
+}
+
+.buttons {
+	width: 275px;
+	height: 205px;
+}
+
+.Rock {
+	margin: 0px 0px 0px 35px;
+	z-index: 2;
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	float: left;
+	width: 275px;
+	height: 60px;
+	color: #ffffff;
+	background-color: #4A0000;
+	font-size: 30px;
+	line-height: 2em;
+	text-align: center;
+}
+ 
+/* Contact Form */
+#contact_form{
+	margin: 35px;
+	font-family: "Arial", "Helvetica Neue", Nelvetica, sans-serif;
+	color: #777777;
+	line-height: 1.5em;
+}
+
+/* Footer */
+footer {
+	font-family: "Arial", "Helvetica Neue", Nelvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #666666;
+	text-align: center;
+	margin: 0;
+	padding: 35px;
+	z-index: 2;
+	position: static;
+	width: 100%;
+	border-top: 8px solid #4A0000;
+
+}
+
+
+/* Media Screen */
+@media screen and (max-width: 980px) {
+	.Nav {
+		margin: 4% 8% 4% 8%;
+	}
+
+	.wrapper { 
+		width: 100%;
+		height: auto;
+		padding: 20px;
+		position: relative;
+		top: -60px;
+	}
+
+	.About {
+		width: 65%;
+		position: relative;
+	}
+
+	.Profileimg {
+		width: 88%;
+		height: auto;
+	}
+
+	.box1 {
+		position: relative;
+		float: left;
+		margin: 35px 10px 10px 35px;
+	}
+
+	.multicolor {
+		width: 96%;
+		height:auto;
+	}
+
+	.Hangman {
+		margin: 0px 0px 0px 35px;
+		z-index: 2;
+		position: absolute;
+		bottom: 15px;
+		left: -35px;
+		float: left;
+		width: 96%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.box2 {
+		float: left;
+		margin: 35px 10px 10px 35px;
+		position: relative;
+	}
+
+	.cliff {
+		width: 96%;
+		height: auto;
+	}
+
+	.RPGGame {
+		margin: 0px 35px 0px 0px;
+		z-index: 2;
+		position: absolute;
+		bottom: 15px;
+		left: 0;
+		float: left;
+		width: 96%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.box3 {
+		position: relative;
+		float: left;
+		margin: 35px 10px 10px 35px;
+	}
+
+	.headphones {
+		width: 96%;
+		height: auto;
+	}
+
+	.Trivia {
+		margin: 0px 35px 0px 0px;
+		z-index: 2;
+		position: absolute;
+		bottom: 15px;
+		float: left;
+		width: 96%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.box4 {
+		float: left;
+		margin: 35px 10px 10px 35px;	
+	}
+
+	.girl {
+		width: 96%;
+		height: auto;
+	}
+
+	.Rutgers {
+		margin: 0px 35px 0px 0px;
+		z-index: 2;
+		position: absolute;
+		bottom: 488px;
+		float: left;
+		width: 89%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.box5 {
+		float: left;
+		margin: 35px 10px 40px 35px;
+	}
+
+	.buttons {
+		width: 96%;
+		height: auto;
+	}
+
+	.Rock {
+		margin: 0px 35px 0px 0px;
+		z-index: 2;
+		position: absolute;
+		bottom: 25px;
+		left: 35px;
+		float: left;
+		width: 89%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+		
+	.sidebar {
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.wrapper { 
+		width: 100%;
+		padding: 20px;
+	 }
+
+	.About {
+		width: 100%;
+	}
+
+	.Profileimg {
+		width: 45%;
+	}
+
+	.box1 {
+		width: 44%;
+		position: relative;
+		float: left;
+		margin: 35px 8px 15px 35px;
+	}
+
+	.multicolor {
+		width: 100%;
+		height: auto;
+	}
+
+	.Hangman {
+		margin: 0px 0px 0px 35px;
+		z-index: 2;
+		position: absolute;
+		bottom: 15px;
+		float: left;
+		width: 100%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.box2 {
+		width: 44%;
+		float: left;
+		margin: 35px 35px 15px 8px;
+		position: relative;
+	}
+
+	.cliff {
+		width: 100%;
+		height: auto;
+	}
+
+	.RPGGame {
+		margin: 0px 35px 0px 0px;
+		z-index: 2;
+		position: absolute;
+		bottom: 15px;
+		left: 0;
+		float: left;
+		width: 100%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+
+	.box3 {
+		width: 44%;
+		float: left;
+		margin: 5px 8px 15px 35px;
+	}
+
+	.headphones {
+		width: 100%;
+		height: auto;
+	}
+
+	.Trivia {
+		margin: 0px 0px 0px 35px;
+		z-index: 2;
+		position: absolute;
+		bottom: 16px;
+		left: -34px;
+		float: left;
+		width: 100%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+
+	.box4 {
+		width: 44%;
+		float: left;
+		margin: 5px 35px 15px 8px;	
+	}
+
+	.girl {
+		width: 100%;
+		height: auto;
+	}
+
+	.Rutgers {
+		margin: 0px 35px 0px 0px;
+		z-index: 2;
+		position: absolute;
+		bottom: 320px;
+		float: left;
+		width: 44%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.box5 {
+		width: 44%;
+		float: left;
+		margin: 10px 10px 35px 35px;
+	}
+
+	.buttons {
+		width: 100%;
+		height: auto;
+	}
+
+	.Rock {
+		margin: 0px 0px 0px 35px;
+		z-index: 2;
+		position: absolute;
+		bottom: 50px;
+		left: 0;
+		float: left;
+		width: 44%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.sidebar {
+		width: 100%;
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width: 640px) {
+	h1 {
+		position: static;
+		width: 100%;
+		padding: 30px;
+	}
+
+	.Nav {
+		position: static;
+		text-align: center;
+		background-color: #ffffff;
+		width: 100%;
+		height: 50%;
+		margin: 0;
+		padding: 15px;
+	}
+
+	.wrapper { 
+		width: 100%;
+		padding: 50px 10px 0px 10px;
+
+	 }
+
+	.About {
+		position: relative;
+		width: 100%;
+		max-height: 2350px;
+	}
+
+	.Profileimg {
+		width: 88%;
+		height: auto;
+
+	}
+
+	.info {
+		position: relative;
+		max-width: 100%;
+	}
+
+	.box1 {
+		max-width: 200%;
+		position: relative;
+		float: left;
+		margin: 35px 10px 10px 35px;
+	}
+
+	.multicolor {
+		width: 200%;
+	}
+
+	.Hangman {
+		margin: 0px 0px 0px 35px;
+		z-index: 2;
+		position: absolute;
+		bottom: 15px;
+		left: -35px;
+		float: left;
+		width: 200%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.box2 {
+		max-width: 200%;
+		float: left;
+		margin: 10px 10px 10px 35px;
+		position: relative;
+	}
+
+	.cliff {
+		width: 200%;
+		height: auto;
+	}
+
+	.RPGGame {
+		margin: 0px 35px 0px 0px;
+		z-index: 2;
+		position: absolute;
+		bottom: 15px;
+		left: 0;
+		float: left;
+		width: 200%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.box3 {
+		max-width: 200%;
+		float: left;
+		margin: 10px 10px 10px 35px;
+	}
+
+	.headphones {
+		width: 200%;
+		height: auto;
+	}
+
+	.Trivia {
+		margin: 0px 0px 0px 35px;
+		z-index: 2;
+		position: absolute;
+		bottom: 16px;
+		left: -34px;
+		float: left;
+		width: 200%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.box4 {
+		max-width: 200%;
+		float: left;
+		margin: 10px 10px 10px 35px;	
+	}
+
+	.girl {
+		width: 200%;
+		height: auto;
+	}
+
+	.Rutgers {
+		margin: 0px 35px 0px 0px;
+		z-index: 2;
+		position: absolute;
+		bottom: 445px;
+		float: left;
+		width: 88%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.box5 {
+		max-width: 200%;
+		float: left;
+		margin: 10px 10px 10px 35px;
+	}
+
+	.buttons {
+		width: 200%;
+		height: auto;
+	}
+
+	.Rock {
+		margin: 0px 0px 0px 35px;
+		z-index: 2;
+		position: absolute;
+		bottom: 30px;
+		left: 0;
+		float: left;
+		width: 88%;
+		height: 60px;
+		color: #ffffff;
+		background-color: #4A0000;
+		font-size: 30px;
+		line-height: 2em;
+		text-align: center;
+	}
+
+	.sidebar {
+		position: relative;
+		width: 100%;
+		margin-top: 40px;
+	}
+}
